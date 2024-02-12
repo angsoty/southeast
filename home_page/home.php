@@ -1,3 +1,16 @@
+<?php 
+  $cn = new mysqli(
+    "localhost",
+    "root",
+    "",
+    "southeast"
+  );
+
+  $sql = "INSERT INTO tbl_test VALUEs(null,'ear meyly','Srey sart pp' )";
+  $cn->query($sql);
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
