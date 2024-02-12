@@ -1,0 +1,8 @@
+.frm{
+        width: 500px;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 5px;
+        box-shadow: 20px;
+        padding: 15px;
+}
